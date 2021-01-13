@@ -12,7 +12,16 @@
         <module>../cloud-client</module>
         <module>../cloud-eureka</module>
         <module>../cloud-producer-original</module>
+        <module>../cloud-consumer</module>
+        <module>../cloud-consumer-original</module>
+        <module>../cloud-producer</module>
     </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.3.2.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>

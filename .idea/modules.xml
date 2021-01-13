@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-client/cloud-client.iml" filepath="$PROJECT_DIR$/cloud-client/cloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" filepath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-original/cloud-consumer-original.iml" filepath="$PROJECT_DIR$/cloud-consumer-original/cloud-consumer-original.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloud-learn.iml" filepath="$PROJECT_DIR$/.idea/cloud-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-producer/cloud-producer.iml" filepath="$PROJECT_DIR$/cloud-producer/cloud-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-producer-original/cloud-producer-original.iml" filepath="$PROJECT_DIR$/cloud-producer-original/cloud-producer-original.iml" />
+    </modules>
+  </component>
+</project>
