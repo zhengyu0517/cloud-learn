@@ -1,11 +1,12 @@
 package com.zhengyu.producer.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.fasterxml.jackson.datatype.jsr310.ser.DurationSerializer;
+import com.zhengyu.producer.dto.UserDTO;
+import com.zhengyu.producer.entity.User;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/producer")
 public class ProducerController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
@@ -13,4 +14,20 @@ public class ProducerController {
          return "欢迎"+name;
     }
 
+    @GetMapping("/user")
+    public UserDTO getUser(@RequestParam String id,
+    @RequestParam String name){
+        UserDTO userDTO = new UserDTO();
+        userDTO.setId(id);
+        userDTO.setName(name);
+        return userDTO;
+    }
+
+    @PostMapping("/post")
+    public UserDTO postUser(@RequestBody User user){
+        UserDTO userDTO = new UserDTO();
+        userDTO.setId(user.getId());
+        userDTO.setName(user.getName());
+        return userDTO;
+    }
 }
