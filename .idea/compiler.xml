@@ -6,22 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-producer" />
-        <module name="cloud-consumer-original" />
         <module name="cloud-consumer" />
+        <module name="cloud-producer" />
+        <module name="cloud-client" />
         <module name="cloud-eureka" />
         <module name="cloud-producer-original" />
-        <module name="cloud-client" />
+        <module name="cloud-consumer-original" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-client" target="1.5" />
-      <module name="cloud-consumer" target="1.5" />
-      <module name="cloud-consumer-original" target="1.5" />
-      <module name="cloud-eureka" target="1.5" />
-      <module name="cloud-parent" target="1.5" />
-      <module name="cloud-producer" target="1.5" />
-      <module name="cloud-producer-original" target="1.5" />
+      <module name="cloud-client" target="1.6" />
+      <module name="cloud-consumer" target="1.6" />
+      <module name="cloud-consumer-original" target="1.6" />
+      <module name="cloud-eureka" target="1.6" />
+      <module name="cloud-parent" target="1.6" />
+      <module name="cloud-producer" target="1.6" />
+      <module name="cloud-producer-original" target="1.6" />
       <module name="eureka" target="1.5" />
     </bytecodeTargetLevel>
   </component>
